@@ -3,7 +3,7 @@ My solutions to University of California San Diego's Data Structure Fundamentals
 
 ## Programming Assingments
 
-### 1. Check brackets in code
+### 1. Check brackets in code (docs/check_brackets.py)
 
 #### Problem Introduction
 In this problem you will implement a feature for a text editor to find errors in the usage of brackets in the code.
