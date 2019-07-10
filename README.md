@@ -3,7 +3,7 @@ My solutions to University of California San Diego's Data Structure Fundamentals
 
 ## Programming Assingments
 
-### [1. Check brackets in code](docs/check_brackets.py)
+### 1. [Check brackets in code](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/check_brackets.py)
 
 #### Problem Introduction
 In this problem you will implement a feature for a text editor to find errors in the usage of brackets in the code.
@@ -20,7 +20,7 @@ Apart from the brackets, code can contain big and small latin letters, digits an
 
 **Memory Limit.** 512MB
 
-### 2. Compute tree height
+### 2. [Compute tree height](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/tree_height.py)
 
 #### Problem Introduction
 Trees are used to manipulate hierarchical data such as hierarchy of categories of a retailer or the directory structure on your computer. They are also used in data analysis and machine learning both for hierarchical clustering and building complex predictive models, including some of the best-performing in practice algorithms like Gradient Boosting over Decision Trees and Random Forests. In the later modules of this course, we will introduce balanced binary search trees (BST) — a special kind of trees that allows to very efficiently store, manipulate and retrieve data. Balanced BSTs are thus used in databases for efficient storage and actually in virtually any non-trivial programs, typically via built-in data structures of the programming language at hand.
@@ -36,7 +36,7 @@ In this problem, your goal is to get used to trees. You will need to read a desc
 
 **Memory Limit.** 512MB
 
-### 3. Convert array into heap
+### 3. [Convert array into heap](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/build_heap.py)
 
 #### Problem Introduction
 In this problem you will convert an array of integers into a heap. This is the crucial step of the sorting algorithm called HeapSort. It has guaranteed worst-case running time of 𝑂(𝑛 log 𝑛) as opposed to QuickSort’s average running time of 𝑂(𝑛 log 𝑛). QuickSort is usually used in practice, because typically it is faster, but HeapSort is used for external sort when you need to sort huge files that don’t fit into memory of your computer.
@@ -58,7 +58,7 @@ Note that all the elements of the input array are distinct. Note that any sequen
 
 **Memory Limit.** 512MB.
 
-### 4. Parallel processing
+### 4. [Parallel processing](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/job_queue.py)
 
 #### Problem Introduction
 In this problem you will simulate a program that processes a list of jobs in parallel. Operating systems such as Linux, MacOS or Windows all have special programs in them called schedulers which do exactly this with the programs on your computer.
