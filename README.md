@@ -81,9 +81,9 @@ In this problem you will implement a simple phone book manager.
 
 #### Problem Description
 **Task.** In this task your goal is to implement a simple phone book manager. It should be able to process the following types of user’s queries:
-∙ *add number name*. It means that the user adds a person with name name and phone number number to the phone book. If there exists a user with such number already, then your manager has to overwrite the corresponding name.
-∙ *del number*. It means that the manager should erase a person with number number from the phone book. If there is no such person, then it should just ignore the query.
-∙ *find number*. It means that the user looks for a person with phone number number. The manager should reply with the appropriate name, or with string “not found" (without quotes) if there is no such person in the book.
+<p>∙ *add number name*. It means that the user adds a person with name name and phone number number to the phone book. If there exists a user with such number already, then your manager has to overwrite the corresponding name.</p>
+<p>∙ *del number*. It means that the manager should erase a person with number number from the phone book. If there is no such person, then it should just ignore the query.</p>
+<p>∙ *find number*. It means that the user looks for a person with phone number number. The manager should reply with the appropriate name, or with string “not found" (without quotes) if there is no such person in the book.</p>
 
 **Input Format.** There is a single integer 𝑁 in the first line — the number of queries. It’s followed by 𝑁 lines, each of them contains one query in the format described above.
 
@@ -93,19 +93,19 @@ In this problem you will implement a simple phone book manager.
 
 **Memory Limit.** 512MB.
 
-### 5. [Hashing with chains]()
+### 5. [Hashing with chains](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/hash_chains.py)
 
 #### Problem Introduction
 In this problem you will implement a hash table using the chaining scheme. Chaining is one of the most popular ways of implementing hash tables in practice. The hash table you will implement can be used to implement a phone book on your phone or to store the password table of your computer or web service (but don’t forget to store hashes of passwords instead of the passwords themselves, or you will get hacked!).
 
 #### Problem Description
 **Task.** In this task your goal is to implement a hash table with lists chaining. You are already given the number of buckets 𝑚 and the hash function. It is a polynomial hash function
-<br>![alt text](https://imgur.com/3QPBxvj)<br>
+<br><img src="https://imgur.com/3QPBxvj"/><br>
 where 𝑆[𝑖] is the ASCII code of the 𝑖-th symbol of 𝑆, 𝑝 = 1 000 000 007 and 𝑥 = 263. Your program should support the following kinds of queries:
-∙ *add string* — insert string into the table. If there is already such string in the hash table, then just ignore the query.
-∙ *del string* — remove string from the table. If there is no such string in the hash table, then just ignore the query.
-∙ *find string* — output “yes" or “no" (without quotes) depending on whether the table contains string or not.
-∙ *check 𝑖* — output the content of the 𝑖-th list in the table. Use spaces to separate the elements of the list. If 𝑖-th list is empty, output a blank line.
+<p>∙ *add string* — insert string into the table. If there is already such string in the hash table, then just ignore the query.</p>
+<p>∙ *del string* — remove string from the table. If there is no such string in the hash table, then just ignore the query.</p>
+<p>∙ *find string* — output “yes" or “no" (without quotes) depending on whether the table contains string or not.</p>
+<p>∙ *check 𝑖* — output the content of the 𝑖-th list in the table. Use spaces to separate the elements of the list. If 𝑖-th list is empty, output a blank line.</p>
 
 When inserting a new string into a hash chain, you must insert it in the beginning of the chain. Input Format. There is a single integer 𝑚 in the first line — the number of buckets you should have. The next line contains the number of queries 𝑁. It’s followed by 𝑁 lines, each of them contains one query in the format described above.
 
