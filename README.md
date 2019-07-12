@@ -100,7 +100,7 @@ In this problem you will implement a hash table using the chaining scheme. Chain
 
 #### Problem Description
 **Task.** In this task your goal is to implement a hash table with lists chaining. You are already given the number of buckets 𝑚 and the hash function. It is a polynomial hash function
-<br><blockquote class="imgur-embed-pub" lang="en" data-id="3QPBxvj"><a href="https://imgur.com/3QPBxvj">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br>
+<p><blockquote class="imgur-embed-pub" lang="en" data-id="3QPBxvj"><a href="https://imgur.com/3QPBxvj">Polynomial hash function</a></blockquote></p>
 where 𝑆[𝑖] is the ASCII code of the 𝑖-th symbol of 𝑆, 𝑝 = 1 000 000 007 and 𝑥 = 263. Your program should support the following kinds of queries:
 <p>∙ <i>add string</i> — insert string into the table. If there is already such string in the hash table, then just ignore the query.</p>
 <p>∙ <i>del string</i> — remove string from the table. If there is no such string in the hash table, then just ignore the query.</p>
