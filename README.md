@@ -105,7 +105,7 @@ where 𝑆[𝑖] is the ASCII code of the 𝑖-th symbol of 𝑆, 𝑝 = 1 000 0
 <p>∙ <i>add string</i> — insert string into the table. If there is already such string in the hash table, then just ignore the query.</p>
 <p>∙ <i>del string</i> — remove string from the table. If there is no such string in the hash table, then just ignore the query.</p>
 <p>∙ <i>find string</i> — output “yes" or “no" (without quotes) depending on whether the table contains string or not.</p>
-<p>∙ <i>check 𝑖</i> — output the content of the 𝑖-th list in the table. Use spaces to separate the elements of the list. If 𝑖-th list is empty, output a blank line.</p>
+<p>∙ <i>check 𝑖</i> — output the content of the 𝑖<sup>th</sup> list in the table. Use spaces to separate the elements of the list. If 𝑖<sup>th</sup> list is empty, output a blank line.</p>
 
 When inserting a new string into a hash chain, you must insert it in the beginning of the chain. Input Format. There is a single integer 𝑚 in the first line — the number of buckets you should have. The next line contains the number of queries 𝑁. It’s followed by 𝑁 lines, each of them contains one query in the format described above.
 
@@ -123,7 +123,7 @@ In this problem you will implement in-order, pre-order and post-order traversals
 #### Problem Description
 **Task.** You are given a rooted binary tree. Build and output its in-order, pre-order and post-order traversals.
 
-**Input Format.** The first line contains the number of vertices 𝑛. The vertices of the tree are numbered from 0 to 𝑛 − 1. Vertex 0 is the root. The next 𝑛 lines contain information about vertices 0, 1, ..., 𝑛−1 in order. Each of these lines contains three integers 𝑘𝑒𝑦<sub>𝑖</sub>, 𝑙𝑒𝑓𝑡<sub>𝑖</sub> and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> — 𝑘𝑒𝑦<sub>𝑖</sub> is the key of the 𝑖-th vertex, 𝑙𝑒𝑓𝑡<sub>𝑖</sub> is the index of the left child of the 𝑖-th vertex, and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> is the index of the right child of the 𝑖-th vertex. If 𝑖 doesn’t have left or right child (or both), the corresponding 𝑙𝑒𝑓𝑡<sub>𝑖</sub> or 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> (or both) will be equal to −1.
+**Input Format.** The first line contains the number of vertices 𝑛. The vertices of the tree are numbered from 0 to 𝑛 − 1. Vertex 0 is the root. The next 𝑛 lines contain information about vertices 0, 1, ..., 𝑛−1 in order. Each of these lines contains three integers 𝑘𝑒𝑦<sub>𝑖</sub>, 𝑙𝑒𝑓𝑡<sub>𝑖</sub> and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> — 𝑘𝑒𝑦<sub>𝑖</sub> is the key of the 𝑖<sup>th</sup> vertex, 𝑙𝑒𝑓𝑡<sub>𝑖</sub> is the index of the left child of the 𝑖<sup>th</sup> vertex, and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> is the index of the right child of the 𝑖<sup>th</sup> vertex. If 𝑖 doesn’t have left or right child (or both), the corresponding 𝑙𝑒𝑓𝑡<sub>𝑖</sub> or 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> (or both) will be equal to −1.
 
 **Constraints.** 1 ≤ 𝑛 ≤ 105; 0 ≤ 𝑘𝑒𝑦<sub>𝑖</sub> ≤ 109; −1 ≤ 𝑙𝑒𝑓𝑡<sub>𝑖</sub>, 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> ≤ 𝑛 − 1. It is guaranteed that the input represents a valid binary tree. In particular, if 𝑙𝑒𝑓𝑡<sub>𝑖</sub> != −1 and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> != −1, then 𝑙𝑒𝑓𝑡<sub>𝑖</sub> != 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub>. Also, a vertex cannot be a child of two different vertices. Also, each vertex is a descendant of the root vertex.
 
@@ -144,3 +144,5 @@ In this problem you are going to test whether a binary search tree data structur
 **Constraints.** 0 ≤ 𝑛 ≤ 105; −2<sup>31</sup> < 𝑘𝑒𝑦<sub>𝑖</sub> < 2<sup>31</sup> − 1; −1 ≤ 𝑙𝑒𝑓𝑡<sub>𝑖</sub>, 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> ≤ 𝑛 − 1. It is guaranteed that the input represents a valid binary tree. In particular, if 𝑙𝑒𝑓𝑡<sub>𝑖</sub> != −1 and 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub> != −1, then 𝑙𝑒𝑓𝑡<sub>𝑖</sub> != 𝑟𝑖𝑔ℎ𝑡<sub>𝑖</sub>. Also, a vertex cannot be a child of two different vertices. Also, each vertex is a descendant of the root vertex. All keys in the input will be different.
 
 **Output Format.** If the given binary tree is a correct binary search tree (see the definition in the problem description), output one word “CORRECT” (without quotes). Otherwise, output one word “INCORRECT” (without quotes).
+
+**Memory Limit.** 512MB.
