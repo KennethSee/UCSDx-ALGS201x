@@ -1,7 +1,7 @@
 # UCSDx - ALGS201x
 My solutions to University of California San Diego's Data Structure Fundamentals' programming assignments
 
-## Programming Assingments
+## Programming Assignments
 
 ### 1. [Check brackets in code](https://github.com/KennethSee/UCSDx---ALGS201x/blob/master/check_brackets.py)
 
